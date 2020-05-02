@@ -1,0 +1,19 @@
+#app4 .circle{
+    width: 25vw;
+    height: 25vh;
+    border: 1px solid rgb(224, 174, 191);
+    border-radius: 50%;
+}
+#app4 .circle.active{
+    background-color: rgb(224, 174, 191);
+    animation: change 2s infinite;
+
+}
+@keyframes change{
+    0%{
+        background-color: rgb(224, 174, 191);
+    }
+    100%{
+        background-color:purple;
+    }
+}
